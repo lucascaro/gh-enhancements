@@ -1,5 +1,5 @@
 // ==UserScript==
-// @name        gh enhancements
+// @name        GitHub Custom Enhancements
 // @namespace   ghplus
 // @description Enhances github pages
 // @include     http://github.com/*
