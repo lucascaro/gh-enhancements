@@ -22,7 +22,7 @@ $(function () {
 
     // Make username a link.
     var username = $user.html();
-    $user.html('<a href="/' + username + '" style="color:#CCCCCC;" >' + username + '</a>');
+    $user.html('<a href="/' + username + '/' + repo + '" style="color:#CCCCCC;" >' + username + '</a>');
 
     // Make branch a link.
     var branch = $branch.html();
