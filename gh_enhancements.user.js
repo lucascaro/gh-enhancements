@@ -5,7 +5,7 @@
 // @include     http://github.com/*
 // @include     https://github.com/*
 // @version     1
-// @grant		none
+// @grant       none
 // ==/UserScript==
 
 $(function () {
@@ -22,12 +22,12 @@ $(function () {
 
     // Make username a link.
     var username = $user.html();
-    $user.html('<a href="/' + username + '/' + repo + '" style="color:#CCCCCC;" >' + username + '</a>');
+    $user.html('<a href="/' + username + '/' + repo + '" style="color:#ee3333;" >' + username + '</a>');
 
     // Make branch a link.
     var branch = $branch.html();
     var branch_url = '/' + username + '/' + repo + '/tree/' + branch;
-    var branch_link = '<a href="' + branch_url + '" style="color:#ffffff;">' + branch + '</a>'
+    var branch_link = '<a href="' + branch_url + '" style="color:#ff0000;">' + branch + '</a>'
     $branch.html(branch_link);
   });
 });
